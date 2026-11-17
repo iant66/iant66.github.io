@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tecnología, herramientas y seguridad</title>
+<meta name="description" content="Descarga la presentación de 6 diapositivas sobre tecnología, herramientas y seguridad.">
+<meta property="og:title" content="Tecnología, herramientas y seguridad">
+<meta property="og:description" content="Presentación en PowerPoint · 6 diapositivas">
+<meta property="og:image" content="portada.jpg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+:root{
+  --bg:#eef2f5; --surface:#ffffff; --fg:#14212b; --muted:#566573; --line:#d5dde4;
+  --accent:#e0701b; --accent-fg:#ffffff;
+  --display:"Space Grotesk",system-ui,sans-serif; --body:"Inter",system-ui,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#10171d; --surface:#18222b; --fg:#e8eef3; --muted:#9aabb9; --line:#2b3a46;
+  --accent:#f28b3c; --accent-fg:#1a0f05; color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.55;
+  padding:40px max(16px,env(safe-area-inset-right,0px)) 40px max(16px,env(safe-area-inset-left,0px))}
+.card{max-width:640px;margin:0 auto;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.preview{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-bottom:1px solid var(--line);background:var(--bg)}
+.inner{padding:28px;display:grid;gap:20px}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+h1{font-family:var(--display);font-size:clamp(24px,5vw,32px);line-height:1.15;margin:4px 0 0;text-wrap:balance}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;color:var(--muted);font-size:13px}
+ol{margin:0;padding-left:22px;display:grid;gap:4px}
+ol li::marker{color:var(--accent);font-weight:600}
+.btn{font:600 16px var(--body);background:var(--accent);color:var(--accent-fg);border-radius:10px;text-decoration:none;
+  padding:14px 22px;display:inline-flex;align-items:center;gap:10px;justify-self:start}
+.btn:hover{filter:brightness(1.06)}
+.btn:focus-visible{outline:3px solid var(--fg);outline-offset:2px}
+</style>
+</head>
+<body>
+<main class="card">
+  <img class="preview" src="portada.jpg" alt="Portada de la presentación">
+  <div class="inner">
+    <div>
+      <div class="eyebrow">Presentación · Taller escolar</div>
+      <h1>Tecnología, herramientas y seguridad</h1>
+    </div>
+    <div class="meta"><span>PowerPoint (.pptx)</span><span>6 diapositivas</span><span>40 KB</span><span>16 nov 2026</span></div>
+    <ol>
+      <li>Portada</li>
+      <li>¿Qué es la tecnología?</li>
+      <li>Herramientas manuales y eléctricas</li>
+      <li>Seguridad: elementos de protección</li>
+      <li>Uso responsable de internet</li>
+      <li>Conclusión y fuentes</li>
+    </ol>
+    <a class="btn" href="tecnologia_herramientas_seguridad.pptx" download>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m6 10 6 6 6-6"/><path d="M5 20h14"/></svg>
+      Descargar PowerPoint
+    </a>
+  </div>
+</main>
+</body>
+</html>
